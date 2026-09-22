@@ -52,7 +52,7 @@ Because raw payload inspection (Deep Packet Inspection) is computationally expen
 | `pkt_len_mean` | Average packet size (bytes) | Highlights small payload sweeps vs. large data transfers. |
 | `syn_flag_cnt` | Binary count of TCP SYN initiation flags | Core indicator of TCP SYN flooding and port scans. |
 | `rst_flag_cnt` | Binary count of TCP Connection Reset flags | Indicates closed port probes typical of botnet scanners. |
-| `flow_byts_s` | Calculated throughput ($(\text{tot\_pkts} \times \text{pkt\_len\_mean}) / \text{flow\_duration}$) | Quantitative measure of network link saturation. |
+| `flow_byts_s` |`Calculated throughput = (tot_pkts * pkt_len_mean) / flow_duration` | Quantitative measure of network link saturation. |
 
 ---
 
