@@ -90,7 +90,7 @@ weighted avg       0.96      0.96      0.96      2000
 
 ### 1. Clone & Setup Environment
 ```bash
-git clone https://github.com/YOUR_USERNAME/iot-ids-ml.git
+git clone https://github.com/JanarthanM/iot-ids-ml.git
 cd iot-ids-ml
 
 # Create and activate virtual environment
